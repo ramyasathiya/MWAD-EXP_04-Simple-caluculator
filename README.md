@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="calculator">
-      <h1>Calculator</h1> {/* ✅ Heading on the page */}
+      <h1>Calculator</h1> 
       <input type="text" value={input} readOnly />
       <div className="buttons">
         <button onClick={handleClear}>C</button>
